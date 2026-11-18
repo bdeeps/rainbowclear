@@ -1,0 +1,779 @@
+{
+  "title": "The history of the rainbow",
+  "tagline": "From a Greek idea of mirrors in the clouds to light bending inside a single raindrop, and the maths that finally got every faint arc right.",
+  "intro": "People have asked what a rainbow is for more than two thousand years. The big clue was that one drop of water can bend light, bounce it, and bend it again. Thinkers in Greece, Egypt, Iran, Germany, England and France each added a piece. Some pieces were lost for centuries, and some were found twice. Here is how the puzzle came together.",
+  "eras": [
+    {
+      "id": "mirror",
+      "name": "Mirrors in the clouds",
+      "from": -340,
+      "to": 1088,
+      "color": "#c49bff",
+      "summary": "Greek writers think the rainbow is a reflection in a cloud. In Cairo, Ibn al-Haytham builds the optics that later work needs. In China, Sun Sikong and Shen Kuo say sunlight meets rain."
+    },
+    {
+      "id": "drops",
+      "name": "One drop at a time",
+      "from": 1267,
+      "to": 1637,
+      "color": "#ffb547",
+      "summary": "Roger Bacon measures the bow. Al-Shirazi, al-Farisi and Theodoric use water-filled glass globes as giant raindrops. They find the path of light inside a drop."
+    },
+    {
+      "id": "law",
+      "name": "Law and colour",
+      "from": 1601,
+      "to": 1704,
+      "color": "#ff7a59",
+      "summary": "Harriot, Snell and Descartes find the sine law of refraction. Descartes uses it to work out the bow's angle. Newton shows that white light holds every colour."
+    },
+    {
+      "id": "waves",
+      "name": "Light as a wave",
+      "from": 1803,
+      "to": 1890,
+      "color": "#5ce1a9",
+      "summary": "Young uses interference to explain the faint extra bows. Airy builds a wave theory of the rainbow."
+    },
+    {
+      "id": "exact",
+      "name": "The full theory",
+      "from": 1908,
+      "to": 2016,
+      "color": "#8ef0ff",
+      "summary": "Mie's exact maths for light on a sphere covers the whole rainbow. Nussenzveig's work shows why Airy's curve sits inside it. Students still repeat the old flask experiment."
+    }
+  ],
+  "events": [
+    {
+      "year": -340,
+      "date": "c. 340 BCE",
+      "era": "mirror",
+      "art": "scroll",
+      "key": true,
+      "title": "Aristotle says the rainbow is a reflection",
+      "who": "Aristotle",
+      "where": "Athens, Greece",
+      "country": "Greece",
+      "text": "In his Meteorology, Aristotle says the rainbow is sight reflected off tiny water drops in a cloud, back toward the sun. He says it never makes more than a semicircle, that it is lower when the sun is higher, and that there are at most two bows at once.",
+      "why": "It was the first serious study of the rainbow, and it set the question for the next 1,600 years.",
+      "box": "bow",
+      "sources": [
+        0,
+        26
+      ]
+    },
+    {
+      "year": -340,
+      "date": "c. 340 BCE",
+      "era": "mirror",
+      "art": "eye",
+      "title": "Aristotle notes rainbows made by the moon",
+      "who": "Aristotle",
+      "where": "Athens, Greece",
+      "country": "Greece",
+      "text": "Aristotle writes that moon rainbows are rare. They need a full moon, near rising or setting. He says he had seen only two in more than fifty years. Their colours were hard to see, so they looked almost white.",
+      "why": "It is an early record of the moonbow, which is the same bow cast by a much dimmer light.",
+      "box": "fog",
+      "sources": [
+        0,
+        8
+      ]
+    },
+    {
+      "year": 65,
+      "date": "c. 65 CE",
+      "era": "mirror",
+      "art": "scroll",
+      "title": "Seneca weighs the theories",
+      "who": "Seneca the Younger",
+      "where": "Rome",
+      "country": "Italy",
+      "text": "In Natural Questions, Seneca sets out several ideas about the rainbow. He favours one in which the sun reflects off a cloud shaped like a curved mirror.",
+      "why": "Roman writers kept the cloud-mirror idea alive.",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "year": 200,
+      "date": "around 200 CE (approximate)",
+      "era": "mirror",
+      "art": "window",
+      "title": "The dark band between two rainbows",
+      "who": "Alexander of Aphrodisias",
+      "where": "Greek-speaking Mediterranean",
+      "country": "Greece",
+      "text": "Alexander of Aphrodisias, writing on Aristotle's Meteorology, was the first to describe the dark patch of sky between a primary and a secondary bow. It is still called Alexander's band. Raindrops cannot send light to the eye from that region.",
+      "why": "The dark band is a clue that something in the drop caps the angle of the light.",
+      "box": "double",
+      "sources": [
+        27,
+        9
+      ]
+    },
+    {
+      "year": 1015,
+      "date": "early 11th century",
+      "era": "mirror",
+      "art": "lens",
+      "key": true,
+      "title": "The Book of Optics",
+      "who": "Ibn al-Haytham (Alhazen)",
+      "where": "Cairo, Egypt",
+      "country": "Egypt",
+      "text": "Ibn al-Haytham wrote the seven-volume Kitab al-Manazir. It covers light, sight and refraction, and it describes testing ideas with experiments. He tried a water-filled globe, but he did not link it to the raindrop. He thought a rainbow was an image in the cloud, like a curved mirror.",
+      "why": "Al-Farisi and Theodoric built their rainbow theories on this book.",
+      "sources": [
+        2,
+        24
+      ]
+    },
+    {
+      "year": 1088,
+      "date": "1088",
+      "era": "mirror",
+      "art": "scroll",
+      "title": "Sunlight meets rain",
+      "who": "Shen Kuo, crediting Sun Sikong",
+      "where": "Song dynasty China",
+      "country": "China",
+      "text": "In the Dream Pool Essays, Shen Kuo says a rainbow forms when sunlight shines on rain. He credits an earlier scholar, Sun Sikong (1015-1076), with the idea.",
+      "why": "It names rain and sun as the cause, without a cloud mirror.",
+      "sources": [
+        18,
+        16
+      ]
+    },
+    {
+      "year": 1267,
+      "date": "1267-1268",
+      "era": "drops",
+      "art": "compass",
+      "key": true,
+      "title": "Bacon measures the bow",
+      "who": "Roger Bacon",
+      "where": "England",
+      "country": "England",
+      "text": "In the Opus Majus, Roger Bacon reports that the top of the rainbow cannot rise above about 42 degrees over the horizon. He probably used an astrolabe. He also stressed the role of single water drops.",
+      "why": "The rainbow now had a number that any theory had to match.",
+      "box": "angle",
+      "sources": [
+        10,
+        22
+      ]
+    },
+    {
+      "year": 1300,
+      "date": "c. 1300",
+      "era": "drops",
+      "art": "flask",
+      "title": "Al-Shirazi turns to drops",
+      "who": "Qutb al-Din al-Shirazi",
+      "where": "Persia",
+      "country": "Iran",
+      "text": "Qutb al-Din al-Shirazi (1236-1311) taught al-Farisi and sent him to read Ibn al-Haytham. Some scholars credit him with the first correct rainbow theory. Roshdi Rashed argues against that.",
+      "why": "A teacher's question started the work that solved the rainbow.",
+      "sources": [
+        1,
+        24
+      ]
+    },
+    {
+      "year": 1307,
+      "date": "c. 1304-1311",
+      "era": "drops",
+      "art": "flask",
+      "key": true,
+      "title": "A water globe as a giant raindrop",
+      "who": "Theodoric of Freiberg",
+      "where": "Germany and France",
+      "country": "Germany",
+      "text": "In De iride, Theodoric used a glass globe full of water as a magnified raindrop in a dark room. Light is refracted going in, reflects once inside, and is refracted coming out. He saw that a second bow comes from two reflections, which flips its colours.",
+      "why": "It explains both bows from what happens inside one drop.",
+      "box": "drop",
+      "sources": [
+        3,
+        20,
+        24
+      ]
+    },
+    {
+      "year": 1309,
+      "date": "February-March 1309",
+      "era": "drops",
+      "art": "obscura",
+      "key": true,
+      "title": "Al-Farisi tests a sphere in a dark chamber",
+      "who": "Kamal al-Din al-Farisi",
+      "where": "Tabriz, Persia",
+      "country": "Iran",
+      "text": "Al-Farisi finished the Tanqih al-Manazir in Ramadan 708 AH, which is early 1309. He put a large glass sphere of water in a camera obscura. He argued that light is refracted twice in a drop, with one or more reflections between. MacTutor calls it the first mathematically satisfactory explanation. He seems to have worked without any contact with Theodoric.",
+      "why": "The same answer was found twice, in Iran and in Germany, at about the same time.",
+      "box": "drop",
+      "sources": [
+        1,
+        21,
+        24
+      ]
+    },
+    {
+      "year": 1601,
+      "date": "July 1601",
+      "era": "law",
+      "art": "lens",
+      "title": "Harriot finds the sine law",
+      "who": "Thomas Harriot",
+      "where": "England",
+      "country": "England",
+      "text": "Harriot discovered the sine law of refraction in July 1601. He did not publish it. By 1606 he was working on a theory of the rainbow, and he published none of that either.",
+      "why": "Without the law of refraction, nobody could calculate the bow.",
+      "sources": [
+        12
+      ]
+    },
+    {
+      "year": 1621,
+      "date": "1621",
+      "era": "law",
+      "art": "plate",
+      "title": "Snell finds the law again",
+      "who": "Willebrord Snell",
+      "where": "Leiden, Dutch Republic",
+      "country": "Netherlands",
+      "text": "Snell found the law of refraction in 1621 but never published it. It became known when Huygens printed it in 1703.",
+      "why": "It is why the law is called Snell's law in many countries.",
+      "sources": [
+        11
+      ]
+    },
+    {
+      "year": 1637,
+      "date": "1637",
+      "era": "law",
+      "art": "compass",
+      "key": true,
+      "title": "Descartes calculates the rainbow",
+      "who": "René Descartes",
+      "where": "Leiden, Dutch Republic",
+      "country": "Netherlands",
+      "text": "Descartes published Les Meteores with his Discourse on Method. He used the law of refraction, a refractive index of 4/3 for water, and the geometry of a round drop. The primary bow comes from one internal reflection and the secondary from two. He got both angles right, but not the colours.",
+      "why": "It turned a long-argued idea into a number that anyone could check.",
+      "box": "angle",
+      "sources": [
+        4,
+        22,
+        16,
+        26
+      ]
+    },
+    {
+      "year": 1672,
+      "date": "February 1672",
+      "era": "law",
+      "art": "colour",
+      "key": true,
+      "title": "Sunlight is a mix of colours",
+      "who": "Isaac Newton",
+      "where": "England",
+      "country": "England",
+      "text": "Newton sent the Royal Society a paper arguing that sunlight is a mixture of rays that bend by different amounts. Colour belongs to the rays, not to the glass. Added to Descartes' theory, this explains why a rainbow spreads into a band, with red bent the least.",
+      "why": "It explains why one drop makes a spectrum.",
+      "box": "bow",
+      "sources": [
+        14,
+        15,
+        13
+      ]
+    },
+    {
+      "year": 1704,
+      "date": "1704",
+      "era": "law",
+      "art": "colour",
+      "title": "Opticks",
+      "who": "Isaac Newton",
+      "where": "London, England",
+      "country": "England",
+      "text": "Newton delayed Opticks until after his rival Robert Hooke died in 1703. It covers the colours of thin films and the diffraction of light. Newton first named five main colours and later seven.",
+      "why": "It became the standard book on light and colour for a century.",
+      "sources": [
+        13,
+        16
+      ]
+    },
+    {
+      "year": 1803,
+      "date": "24 November 1803",
+      "era": "waves",
+      "art": "wave",
+      "key": true,
+      "title": "Young explains the extra bows",
+      "who": "Thomas Young",
+      "where": "London, England",
+      "country": "England",
+      "text": "Young read his lecture on interference to the Royal Society in November 1803. He used it to explain supernumerary bows, the faint extra arcs just inside the main one. Newton's particle idea of light could not do that.",
+      "why": "The faint bows showed that light behaves like a wave.",
+      "box": "bow",
+      "sources": [
+        29,
+        26,
+        16
+      ]
+    },
+    {
+      "year": 1838,
+      "date": "1838",
+      "era": "waves",
+      "art": "wave",
+      "key": true,
+      "title": "Airy's wave theory of the rainbow",
+      "who": "George Biddell Airy",
+      "where": "Cambridge, England",
+      "country": "England",
+      "text": "Airy was then Astronomer Royal. In a paper on the light near a caustic, he used wave theory to show that the rainbow's brightness is finite and not infinite. His theory also gives the faint extra bows. Drop size matters, and very small drops give a wide, pale bow.",
+      "why": "It explained the bow's fine detail, including the white fogbow.",
+      "box": "fog",
+      "sources": [
+        25,
+        26,
+        5,
+        6,
+        7,
+        28
+      ]
+    },
+    {
+      "year": 1890,
+      "date": "1890",
+      "era": "exact",
+      "art": "sinewave",
+      "title": "Lorenz solves light on a sphere",
+      "who": "Ludvig Lorenz",
+      "where": "Copenhagen, Denmark",
+      "country": "Denmark",
+      "text": "The Danish physicist Ludvig Lorenz worked out how a plane light wave scatters from a transparent sphere. Mie reached the same theory independently. It is now sometimes called Lorenz-Mie theory.",
+      "why": "An exact answer for a round drop was available years before Mie.",
+      "sources": [
+        17
+      ]
+    },
+    {
+      "year": 1908,
+      "date": "1908",
+      "era": "exact",
+      "art": "sinewave",
+      "key": true,
+      "title": "Mie's exact theory",
+      "who": "Gustav Mie",
+      "where": "Greifswald, Germany",
+      "country": "Germany",
+      "text": "Mie published exact equations for how light scatters from a sphere in the Annalen der Physik. Physics World says the theory gives a complete theory of the rainbow, though the sums are very slow to work out for raindrops.",
+      "why": "Maxwell's equations for light could now be solved for a raindrop.",
+      "sources": [
+        17,
+        25,
+        26
+      ]
+    },
+    {
+      "year": 1965,
+      "date": "1960s",
+      "era": "exact",
+      "art": "wave",
+      "title": "Nussenzveig finds Airy inside Mie",
+      "who": "H. Moyses Nussenzveig",
+      "where": "Brazil",
+      "country": "Brazil",
+      "text": "Michael Berry writes that Nussenzveig extended Mie's work in the 1960s and found the Airy integral inside it. This linked the exact theory to the older wave picture.",
+      "why": "It showed that the old and new theories agree.",
+      "sources": [
+        26
+      ]
+    },
+    {
+      "year": 1977,
+      "date": "April 1977",
+      "era": "exact",
+      "art": "wave",
+      "title": "The theory of the rainbow, for everyone",
+      "who": "H. Moyses Nussenzveig",
+      "where": "Scientific American",
+      "country": "Brazil",
+      "text": "Nussenzveig wrote The Theory of the Rainbow for Scientific American. It says the answer needs all the resources of mathematical physics.",
+      "why": "It gave the public a map of the whole theory.",
+      "sources": [
+        19,
+        26
+      ]
+    },
+    {
+      "year": 2016,
+      "date": "2016",
+      "era": "exact",
+      "art": "flask",
+      "title": "The flask experiment, tested again",
+      "who": "Markus and Sarah Selmke",
+      "where": "Leipzig, Germany",
+      "country": "Germany",
+      "text": "Two Leipzig physicists studied the round-bottom flask rainbow experiment. They note that such experiments go back to Theodoric in the 14th century and Descartes. They confirm the 42 degree bow in a flask.",
+      "why": "A 700-year-old classroom experiment still holds up.",
+      "box": "angle",
+      "sources": [
+        23
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Bow height measured (about 42 degrees)",
+      "value": "1267-68",
+      "who": "Roger Bacon, England"
+    },
+    {
+      "label": "Water-filled globe used as a raindrop",
+      "value": "c. 1304-1311",
+      "who": "Theodoric of Freiberg; al-Farisi worked on it independently"
+    },
+    {
+      "label": "Both bows calculated with the law of refraction",
+      "value": "1637",
+      "who": "René Descartes, with a refractive index of 4/3"
+    },
+    {
+      "label": "Extra bows explained by interference",
+      "value": "1803",
+      "who": "Thomas Young, England"
+    }
+  ],
+  "people": [
+    {
+      "name": "Aristotle",
+      "life": "",
+      "role": "Greek philosopher who wrote the first full discussion of the rainbow",
+      "from": "Greece",
+      "note": "He said the rainbow is a reflection and noticed moon rainbows."
+    },
+    {
+      "name": "Ibn al-Haytham",
+      "life": "965 – 1040",
+      "role": "Physicist and mathematician",
+      "from": "Basra and Cairo",
+      "note": "His Book of Optics shaped rainbow research for three centuries."
+    },
+    {
+      "name": "Sun Sikong",
+      "life": "1015 – 1076",
+      "role": "Scholar of Song China",
+      "from": "China",
+      "note": "Shen Kuo credits him with the idea that sunlight and rain make the bow."
+    },
+    {
+      "name": "Shen Kuo",
+      "life": "1031 – 1095",
+      "role": "Polymath and author of the Dream Pool Essays",
+      "from": "China",
+      "note": "He recorded the rain-and-sun explanation in 1088."
+    },
+    {
+      "name": "Qutb al-Din al-Shirazi",
+      "life": "1236 – 1311",
+      "role": "Astronomer and teacher",
+      "from": "Persia",
+      "note": "He pushed al-Farisi to study optics."
+    },
+    {
+      "name": "Kamal al-Din al-Farisi",
+      "life": "c. 1260 – c. 1320",
+      "role": "Physicist and mathematician",
+      "from": "Persia",
+      "note": "He tested a water-filled glass sphere in a dark chamber."
+    },
+    {
+      "name": "Theodoric of Freiberg",
+      "life": "c. 1250 – c. 1311",
+      "role": "Dominican friar and natural philosopher",
+      "from": "Germany",
+      "note": "He explained both bows with a globe of water."
+    },
+    {
+      "name": "Roger Bacon",
+      "life": "",
+      "role": "English friar who measured the rainbow's height",
+      "from": "England",
+      "note": "He gave the 42 degree figure."
+    },
+    {
+      "name": "Thomas Harriot",
+      "life": "1560 – 1621",
+      "role": "Mathematician and astronomer",
+      "from": "England",
+      "note": "He found the sine law in 1601 and kept it unpublished."
+    },
+    {
+      "name": "Willebrord Snell",
+      "life": "1580 – 1626",
+      "role": "Mathematician",
+      "from": "Netherlands",
+      "note": "He found the law of refraction in 1621."
+    },
+    {
+      "name": "Isaac Newton",
+      "life": "1643 – 1727",
+      "role": "Physicist and mathematician",
+      "from": "England",
+      "note": "He showed that white light holds all the colours."
+    },
+    {
+      "name": "Thomas Young",
+      "life": "born 1773",
+      "role": "Physician and physicist",
+      "from": "England",
+      "note": "He explained supernumerary bows with interference."
+    },
+    {
+      "name": "George Biddell Airy",
+      "life": "1801 – 1892",
+      "role": "Astronomer Royal",
+      "from": "England",
+      "note": "He built a wave theory of the rainbow."
+    },
+    {
+      "name": "H. Moyses Nussenzveig",
+      "life": "",
+      "role": "Brazilian physicist who developed the full theory",
+      "from": "Brazil",
+      "note": "He wrote The Theory of the Rainbow in 1977."
+    },
+    {
+      "name": "Patricia Fara",
+      "life": "",
+      "role": "Historian of science at Clare College, Cambridge",
+      "from": "England",
+      "note": "She wrote the Royal Society commentary on Newton's 1672 colour paper."
+    },
+    {
+      "name": "Sarah Selmke",
+      "life": "",
+      "role": "Physicist at the University of Leipzig",
+      "from": "Germany",
+      "note": "She co-wrote the 2016 study of the flask rainbow experiment."
+    }
+  ],
+  "series": [
+    {
+      "id": "angle",
+      "title": "The rainbow's angle, as measured or calculated",
+      "unit": "degrees",
+      "log": false,
+      "after": "law",
+      "caption": "The number stays close to 42 degrees from Bacon's time to ours.",
+      "points": [
+        {
+          "year": 1267,
+          "value": 42,
+          "label": "Bacon: top of the bow is about 42 degrees up"
+        },
+        {
+          "year": 1637,
+          "value": 42,
+          "label": "Descartes: primary bow about 42 degrees"
+        },
+        {
+          "year": 2016,
+          "value": 42,
+          "label": "Selmke and Selmke: 42 degrees for a flask"
+        },
+        {
+          "year": 2026,
+          "value": 42.5,
+          "label": "Modern theory: red light, about 42.5 degrees"
+        }
+      ]
+    },
+    {
+      "id": "index",
+      "title": "The bending power of water",
+      "unit": "refractive index",
+      "log": false,
+      "after": "exact",
+      "caption": "Descartes used 4/3. Modern values for red and blue differ slightly, which is why the bow spreads into colours.",
+      "points": [
+        {
+          "year": 1637,
+          "value": 1.333,
+          "label": "Descartes: 4/3"
+        },
+        {
+          "year": 2026,
+          "value": 1.33,
+          "label": "Red light today: 1.330"
+        },
+        {
+          "year": 2027,
+          "value": 1.343,
+          "label": "Blue light today: 1.343"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "Descartes used a refractive index of 4/3 for water, and it gave the right angle.",
+    "Aristotle said he had seen only two moon rainbows in more than fifty years.",
+    "Al-Farisi and Theodoric seem to have solved the rainbow separately, at about the same time.",
+    "The dark band between two bows is named for Alexander of Aphrodisias.",
+    "Fogbows look white because their droplets are under 0.05 mm across."
+  ],
+  "sources": [
+    {
+      "title": "Meteorology, Book III (Aristotle, trans. E. W. Webster)",
+      "publisher": "MIT Internet Classics Archive",
+      "url": "http://classics.mit.edu/Aristotle/meteorology.3.iii.html"
+    },
+    {
+      "title": "Kamal al-Din Al-Farisi",
+      "publisher": "MacTutor, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Farisi/"
+    },
+    {
+      "title": "Abu Ali al-Hasan ibn al-Haytham",
+      "publisher": "MacTutor, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Haytham/"
+    },
+    {
+      "title": "Dietrich of Freiberg",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/dietrich-freiberg/"
+    },
+    {
+      "title": "Rene Descartes",
+      "publisher": "MacTutor, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Descartes/"
+    },
+    {
+      "title": "George Biddell Airy",
+      "publisher": "MacTutor, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Airy/"
+    },
+    {
+      "title": "Supernumerary rainbows",
+      "publisher": "Atmospheric Optics (Les Cowley)",
+      "url": "https://www.atoptics.co.uk/rainbows/supers.htm"
+    },
+    {
+      "title": "Fogbows",
+      "publisher": "Atmospheric Optics (Les Cowley)",
+      "url": "https://www.atoptics.co.uk/droplets/fogbow.htm"
+    },
+    {
+      "title": "Moonbows",
+      "publisher": "Atmospheric Optics (Les Cowley)",
+      "url": "https://www.atoptics.co.uk/rainbows/moonbow.htm"
+    },
+    {
+      "title": "Secondary rainbow",
+      "publisher": "Atmospheric Optics (Les Cowley)",
+      "url": "https://www.atoptics.co.uk/rainbows/sec.htm"
+    },
+    {
+      "title": "Roger Bacon",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/roger-bacon/"
+    },
+    {
+      "title": "Willebrord Snell",
+      "publisher": "MacTutor, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Snell/"
+    },
+    {
+      "title": "Thomas Harriot",
+      "publisher": "MacTutor, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Harriot/"
+    },
+    {
+      "title": "Isaac Newton",
+      "publisher": "MacTutor, University of St Andrews",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/"
+    },
+    {
+      "title": "Newton shows the light: a commentary on Newton (1672)",
+      "publisher": "Philosophical Transactions of the Royal Society A (doi:10.1098/rsta.2014.0213)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4360081/"
+    },
+    {
+      "title": "Experiment and mathematics in Newton's theory of color",
+      "publisher": "Physics Today",
+      "url": "https://physicstoday.aip.org/features/experiment-and-mathematics-in-newtons-theory-of-color"
+    },
+    {
+      "title": "Rainbow",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rainbow"
+    },
+    {
+      "title": "Mie scattering",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mie_scattering"
+    },
+    {
+      "title": "Shen Kuo",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shen_Kuo"
+    },
+    {
+      "title": "The Theory of the Rainbow (H. M. Nussenzveig)",
+      "publisher": "Scientific American, April 1977",
+      "url": "https://www.scientificamerican.com/article/the-theory-of-the-rainbow/"
+    },
+    {
+      "title": "Theodoric of Freiberg",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Theodoric_of_Freiberg"
+    },
+    {
+      "title": "Kamal al-Din al-Farisi",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kam%C4%81l_al-D%C4%ABn_al-F%C4%81ris%C4%AB"
+    },
+    {
+      "title": "The Cartesian Rainbow (T. W. Wieting)",
+      "publisher": "Reed College",
+      "url": "https://reed.edu/math-stats/wieting/essays/Rainbow.pdf"
+    },
+    {
+      "title": "Revisiting the round bottom flask rainbow experiment (M. and S. Selmke)",
+      "publisher": "arXiv 1612.09563, University of Leipzig",
+      "url": "https://ar5iv.labs.arxiv.org/html/1612.09563"
+    },
+    {
+      "title": "Theodoric of Freiberg and Kamal al-Din al-Farisi independently formulate correct qualitative explanation of the rainbow",
+      "publisher": "Encyclopedia.com (Science and Its Times)",
+      "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/theodoric-freiberg-and-kamal-al-din-al-farisi-independently-formulate-correct-qualitative"
+    },
+    {
+      "title": "The subtlety of rainbows (J. Hardwick)",
+      "publisher": "Physics World, IOP Publishing",
+      "url": "https://physicsworld.com/a/the-subtlety-of-rainbows/"
+    },
+    {
+      "title": "Deconstructing rainbows (M. Berry, review)",
+      "publisher": "Physics World, IOP Publishing",
+      "url": "https://physicsworld.com/a/deconstructing-rainbows/"
+    },
+    {
+      "title": "Alexander's band",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexander%27s_band"
+    },
+    {
+      "title": "Fogbow",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fogbow"
+    },
+    {
+      "title": "Thomas Young, scientist of the day",
+      "publisher": "Linda Hall Library",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/thomas-young/"
+    }
+  ]
+}

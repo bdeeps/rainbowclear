@@ -1,0 +1,111 @@
+{
+  "slug": "rainbowclear",
+  "box": 233,
+  "date": "2026-11-30",
+  "title": "RainbowClear",
+  "question": "How does a rainbow form?",
+  "hook": "Every rainbow is made by millions of raindrops, each bending sunlight and bouncing it back. Trace the rays through one drop, find out why light piles up at 42 degrees, and see why a bow is really a circle.",
+  "thumbText": "HOW RAINBOWS FORM",
+  "field": "optics",
+  "minutes": 14,
+  "tags": [
+    "rainbow",
+    "optics",
+    "refraction",
+    "dispersion",
+    "raindrop",
+    "snells law",
+    "fogbow",
+    "moonbow",
+    "light",
+    "weather",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "One drop bends and sorts the light",
+      "text": "Sunlight enters a raindrop and slows down, so it bends. Snell’s law, sin i = n sin r, says by how much. Water bends violet slightly more than red (index about 1.344 against 1.331), so the colours begin to separate. Inside, the light reflects off the back of the drop and bends again on the way out."
+    },
+    {
+      "title": "Light piles up near 42 degrees",
+      "text": "Rays hit the drop at every height and leave at many angles. But the exit angle reaches a peak at one ray, the Descartes ray, so many nearby rays leave almost parallel and add up. For red that peak is about 42.3 degrees from straight back. For violet it is about 40.5, which puts red on the outside of the bow."
+    },
+    {
+      "title": "A circle around the antisolar point",
+      "text": "Every drop that sits about 42 degrees from the point opposite the Sun sends red light to you. Those drops form a cone with you at the tip, so the bow is a circle. The ground hides the lower part, which is why you usually see an arc. From a mountain or an aircraft the full ring can appear."
+    },
+    {
+      "title": "No bow when the Sun is high",
+      "text": "The antisolar point is as far below the horizon as the Sun is above it. So the top of the bow stands 42 degrees minus the Sun’s height above the horizon. Once the Sun is higher than about 42 degrees, the whole circle is below the horizon and you cannot see a rainbow from level ground."
+    },
+    {
+      "title": "The second bow and the dark band",
+      "text": "Light that bounces twice inside a drop piles up near 51 degrees (red 50.4, violet 53.7) and makes the fainter secondary bow, with the colours reversed. Between the two bows the sky is darker: Alexander’s dark band. The light is also strongly polarised along the arc, because the back reflection is near Brewster’s angle."
+    },
+    {
+      "title": "Small drops, fogbows and moonbows",
+      "text": "Light is a wave, so a bow has width that depends on drop size. Raindrops give narrow, vivid bands and faint extra supernumerary bows inside the main one. Tiny fog droplets widen each colour until they overlap into a pale, nearly white fogbow. A moonbow is an ordinary bow made by moonlight, too dim for colour vision."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Refraction",
+      "def": "The bending of light as it passes between materials, because its speed changes."
+    },
+    {
+      "term": "Snell’s law",
+      "def": "sin i = n sin r. It links the angles on each side of a surface through the refractive index."
+    },
+    {
+      "term": "Dispersion",
+      "def": "Different colours bending by different amounts, because the index depends on wavelength."
+    },
+    {
+      "term": "Antisolar point",
+      "def": "The point in the sky directly opposite the Sun, below the horizon. The bow is centred on it."
+    },
+    {
+      "term": "Minimum deviation",
+      "def": "The smallest turning angle for rays that bounce once. Light bunches there, which makes the bow bright."
+    },
+    {
+      "term": "Descartes ray",
+      "def": "The single ray at the turning point of the exit-angle curve, which leaves at the rainbow angle."
+    },
+    {
+      "term": "Secondary bow",
+      "def": "The fainter second bow from rays that reflect twice, near 51 degrees, with colours reversed."
+    },
+    {
+      "term": "Alexander’s dark band",
+      "def": "The darker sky between the primary and secondary bows."
+    },
+    {
+      "term": "Polarisation",
+      "def": "The direction a light wave vibrates. Rainbow light vibrates mostly along the arc."
+    },
+    {
+      "term": "Supernumerary bows",
+      "def": "Faint extra bands just inside the main bow, from interference between light waves."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "rainbowclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
